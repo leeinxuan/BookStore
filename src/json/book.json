@@ -4,27 +4,21 @@
       "horizontal": true,
       "data": [
          {
-            "bookname": "Taylor Swift",
-            "author": "Taylor Swift",
-            "url": "https://www.amazon.com/Taylor-Swift/dp/B0014I4KH6",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/61McsadO1OL.jpg",
-            "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg",
+            "bookname": "Fashionopolis",
+            "author": "Dana Thomas",
+            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_fashinopolis.png",
             "descriptions": "Taylor Swift has been enhanced by the addition of 3 brand new tracks (\"I'm Only Me When I'm With You\", \"Invisible\", \"A Perfectly Good Heart\") and a pop version of the hit single \"Teardrops On My Guitar\"."
          },
          {
-            "bookname": "Fearless",
-            "author": "Taylor Swift",
-            "url": "https://www.amazon.com/Fearless-Enhanced-Taylor-Swift/dp/B001EYGOEM",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51qmhXWZBxL.jpg",
-            "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg",
+            "bookname": "Chanel",
+            "author": "Patrick Mauriès",
+            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_chanel.png",
             "descriptions": "Taylor Swift has been enhanced by the addition of 3 brand new tracks (\"I'm Only Me When I'm With You\", \"Invisible\", \"A Perfectly Good Heart\") and a pop version of the hit single \"Teardrops On My Guitar\"."
          },
          {
-            "bookname": "Speak Now",
-            "author": "Taylor Swift",
-            "url": "https://www.amazon.com/Speak-Now-Taylor-Swift/dp/B003WTE886",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51vlGuX7%2BFL.jpg",
-            "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg",
+            "bookname": "Calligraphy",
+            "author": "June & Lucy",
+            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_calligraphy.png",
             "descriptions": "Taylor Swift has been enhanced by the addition of 3 brand new tracks (\"I'm Only Me When I'm With You\", \"Invisible\", \"A Perfectly Good Heart\") and a pop version of the hit single \"Teardrops On My Guitar\"."
          }
       ]
@@ -34,18 +28,19 @@
       "horizontal": true,
       "data": [
          {
-            "title": "Taylor Swift",
-            "artist": "Taylor Swift",
-            "url": "https://www.amazon.com/Taylor-Swift/dp/B0014I4KH6",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/61McsadO1OL.jpg",
-            "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+            "bookname": "Yves Saint Laurent",
+            "author": "Suzy Menkes",
+            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_ysl.png"
          },
          {
-            "title": "Fearless",
-            "artist": "Taylor Swift",
-            "url": "https://www.amazon.com/Fearless-Enhanced-Taylor-Swift/dp/B001EYGOEM",
-            "image": "https://images-na.ssl-images-amazon.com/images/I/51qmhXWZBxL.jpg",
-            "thumbnail_image": "https://i.imgur.com/K3KJ3w4h.jpg"
+            "bookname": "The Book of Signs",
+            "author": "Rudolf Koch",
+            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_tbos.png"
+         },
+         {
+            "bookname": "Stitched Up",
+            "author": "Tansy E. Hoskins",
+            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_stitchedup.png"
          }
       ]
    }
