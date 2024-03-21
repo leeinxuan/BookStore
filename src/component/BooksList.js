@@ -3,7 +3,7 @@ import { Text, FlatList, StyleSheet,View } from "react-native";
 import booklist from "../json/book.json";
 import BookDetail from "./BookDetail";
 
-const BooksList = () => {
+const BooksList = ({ navigation }) => {
 
     return (
       <View style={styles.section}>
@@ -13,7 +13,7 @@ const BooksList = () => {
         <FlatList
           horizontal={true}
           data={booklist[0].data}
-          renderItem={({item}) => <BookDetail book={item}/>}
+          renderItem={({item}) => <BookDetail book={item} navigation={navigation}/>}
           keyExtractor={item => item.bookname}
         />
         <Text style={styles.sectionHeader}>
@@ -22,7 +22,7 @@ const BooksList = () => {
         <FlatList
           horizontal={true}
           data={booklist[1].data}
-          renderItem={({item}) => <BookDetail book={item}/>}
+          renderItem={({item}) => <BookDetail book={item} navigation={navigation}/>}
           keyExtractor={item => item.bookname}
         />
       </View>

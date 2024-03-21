@@ -1,15 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, StyleSheet, Text} from 'react-native';
-import BooksList from './src/component/BooksList';
+import { SafeAreaView, StyleSheet } from 'react-native';
+import Navigation from './src/navigation';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 export default function App() {
   return (
-    
+    <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
         <StatusBar />
-        <BooksList />
+        <Navigation />
       </SafeAreaView>
-    
+    </SafeAreaProvider>
   );
 }
 
