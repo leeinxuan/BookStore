@@ -32,6 +32,7 @@ const BooksList = ({ navigation }) => {
   const styles = StyleSheet.create({
     section: {
       marginLeft: 20,
+      backgroundColor:'#fff'
     },
     sectionHeader: {
         fontWeight: 'bold',

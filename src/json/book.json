@@ -6,20 +6,23 @@
          {
             "bookname": "Fashionopolis",
             "author": "Dana Thomas",
+            "showStar":false,
             "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_fashinopolis.png?raw=true",
-            "descriptions": "Taylor Swift has been enhanced by the addition of 3 brand new tracks (\"I'm Only Me When I'm With You\", \"Invisible\", \"A Perfectly Good Heart\") and a pop version of the hit single \"Teardrops On My Guitar\"."
+            "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
          },
          {
             "bookname": "Chanel",
             "author": "Patrick Mauriès",
+            "showStar":false,
             "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_chanel.png?raw=true",
-            "descriptions": "Taylor Swift has been enhanced by the addition of 3 brand new tracks (\"I'm Only Me When I'm With You\", \"Invisible\", \"A Perfectly Good Heart\") and a pop version of the hit single \"Teardrops On My Guitar\"."
+            "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
          },
          {
             "bookname": "Calligraphy",
             "author": "June & Lucy",
+            "showStar":false,
             "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_calligraphy.png?raw=true",
-            "descriptions": "Taylor Swift has been enhanced by the addition of 3 brand new tracks (\"I'm Only Me When I'm With You\", \"Invisible\", \"A Perfectly Good Heart\") and a pop version of the hit single \"Teardrops On My Guitar\"."
+            "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
          }
       ]
    },
@@ -30,17 +33,26 @@
          {
             "bookname": "Yves Saint Laurent",
             "author": "Suzy Menkes",
-            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_ysl.png?raw=true"
+            "showStar":true,
+            "star":4,
+            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_ysl.png?raw=true",
+            "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
          },
          {
             "bookname": "The Book of Signs",
             "author": "Rudolf Koch",
-            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_tbos.png?raw=true"
+            "showStar":true,
+            "star":3,
+            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_tbos.png?raw=true",
+            "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
          },
          {
             "bookname": "Stitched Up",
             "author": "Tansy E. Hoskins",
-            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_stitchedup.png?raw=true"
+            "showStar":true,
+            "star":3,
+            "image": "https://github.com/leeinxuan/BookStore/blob/master/src/img/img_book_stitchedup.png?raw=true",
+            "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
          }
       ]
    }

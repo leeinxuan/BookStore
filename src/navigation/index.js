@@ -20,10 +20,18 @@ const StackNavigator = () => {
       <Stack.Screen
         name="Home"
         component={HomeScreen}
+        options={{
+          title: "",
+          headerShadowVisible: false,
+        }}
       />
       <Stack.Screen
         name="Detail"
         component={DetailScreen}
+        options={{
+          title: "",
+          headerShadowVisible: false,
+        }}
       />
     </Stack.Navigator>
   );

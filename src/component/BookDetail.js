@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, Image, StyleSheet, View ,Pressable } from "react-native";
-
+import StarList from "./StarList";
 
 const BookDetail = ({ book, navigation }) => {
   
@@ -17,6 +17,11 @@ const BookDetail = ({ book, navigation }) => {
         </Pressable>
       </View>
       <View>
+      {book.showStar ?
+          <View style={styles.homeStarList}>
+            <StarList star={book.star} />
+          </View>
+        : null}
         <Text style={styles.headerTitleStyle}>{book.bookname}</Text>
         <Text style={styles.headerContentStyle}>{book.author}</Text>
       </View>
