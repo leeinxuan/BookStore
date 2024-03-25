@@ -1,14 +1,14 @@
 import React from "react";
-import { View } from "react-native";
+import { View,ScrollView } from "react-native";
 import BookList from "../component/BooksList";
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <View style={{flex: 1}}>
+    <ScrollView style={{flex: 1}}>
       <BookList 
         navigation={navigation}
       />
-    </View>
+    </ScrollView>
   );
 };
 
